@@ -61,6 +61,7 @@ def get_prediction(
     full_shape=None,
     postprocess: Optional[PostprocessPredictions] = None,
     verbose: int = 0,
+    show_labels=False
 ) -> PredictionResult:
     """
     Function for performing prediction for given image using given detection_model.
